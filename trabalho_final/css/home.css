@@ -1,0 +1,158 @@
+body{
+    height: 300vh;
+}
+
+.propaganda{
+    height: 400px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imagem-card1{
+    margin-left: 50px;
+  }
+  
+  .descricao1{
+      margin-top: -10px;
+      margin-left: 50px;
+  }
+  
+  .imagem-botao1{
+      margin-top: 2px;
+      margin-left: 50px;
+      border: none;
+  }
+  
+  .imagem-botao2{
+      margin-top: 2px;
+      margin-left: 125px;
+      width: 40px;
+      height: 40px;
+      border: none;
+  }
+.cards{
+    position: absolute;
+    display: flex;
+}
+
+.card{
+    background-color:white ;
+    width: 300px;
+    height: 350px;
+}
+
+.Titulo{
+    margin-top: 750px ;
+    text-align: center;
+    
+}
+
+#sobre{
+    margin: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.divFundo{
+    position: relative;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+    margin: 10px;
+    text-indent: 70px; /* Recuo de 70px na primeira linha */
+}
+
+.slider { 
+    display: block; 
+    left: 75px;
+    height: 293px; 
+    width: 700px; 
+    margin: auto; 
+    margin-top: 250px; 
+    position: absolute; 
+    margin-right: 100px;
+    justify-content: center;
+    } 
+    
+    .slider li { 
+    list-style: none; 
+    position: absolute; 
+    } 
+    
+    .slider img { 
+    margin: auto; 
+    text-align: center;
+    width: 1300px ;
+    height: 700px; 
+    vertical-align: top; 
+    } 
+    
+    .slider input { 
+    display: none; 
+    } 
+    
+    .slider label { 
+    background-color:white; 
+    margin-left: calc(50% - 50px);
+    border-radius: 50%;
+    bottom: 10px; 
+    cursor:pointer; 
+    display: block; 
+    height: 15px; 
+    position: absolute; 
+    width: 15px; 
+    z-index: 10; 
+    transition: background-color 0.3s;
+    } 
+    .slider label:hover {
+      background-color: #333333; /* Cor mais escura quando o mouse passa por cima */
+    }
+    
+    .slider li:nth-child(1) label { 
+    left: 10px; 
+    } 
+    .slider li:nth-child(2) label { 
+    left: 40px; 
+    } 
+    
+    .slider li:nth-child(3) label { 
+    left: 70px; 
+    } 
+    .slider img { 
+    opacity: 0; 
+    visibility: hidden; 
+    } 
+    
+    .slider li input:checked ~ img { 
+    opacity: 1; 
+    visibility: visible; 
+    z-index: 10; 
+    } 
+
+.layoutdohome{
+    height: 700px;
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.esquerda{
+    width: calc(50% - 10px);
+}
+.direita{
+    width: calc(50% - 10px);
+    margin-left: 20px;
+}
+.sup-d{
+height: calc(50% - 10px);
+width: 100%;
+}
+.inf-d{
+    height: calc(50% - 10px);
+    width: 100%;
+    margin-top: 20px;
+    }

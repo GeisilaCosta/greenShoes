@@ -1,0 +1,66 @@
+.socios{
+    height: 50px;
+    width: 250px;
+    background-color: var(--cor-verdeClaro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsocios{
+
+    margin-top: 50px;
+    width: 60vw;
+    height: 650px;
+
+}
+
+h4{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: white ;
+    border: 0;
+    cursor: pointer;
+}
+
+
+
+.socio1{
+    width: calc(100%/3);
+    height: calc(100%);
+    background-color: white;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+    display: flex;
+    align-items: center;    
+}
+
+.ftPerfil{
+    margin-top: 20px;
+}
+
+.icons{
+    margin-top: 15px;
+    
+}
+
+.sup{
+    width: calc(100% - 20px);
+    height: calc(50% - 15px);
+    margin: 10px;
+        display: flex;
+    flex-direction: row;
+}
+.inf{
+    width: calc(100% - 20px);
+    height: calc(50% - 15px);
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
